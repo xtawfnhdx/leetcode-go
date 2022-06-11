@@ -17,4 +17,8 @@ func main() {
 	fmt.Printf("i出现过次数:%d\n", strings.Count(str, "i"))
 	fmt.Printf("重复过2次数:%s\n", strings.Repeat(s1, 2))
 
+	s2 := strings.Split("zhna san li si", " ")
+	s3 := strings.Join(s2, "_")
+	fmt.Printf("最终字符串:%s \n", s3)
+
 }
