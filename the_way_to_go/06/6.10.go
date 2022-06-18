@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	a()
+	a3()
 }
 func funcin(funcname string) {
 	fmt.Printf("in func %s\n", funcname)
@@ -12,7 +12,7 @@ func funcout(funcname string) {
 	fmt.Printf("out func %s\n", funcname)
 }
 
-func a() {
+func a3() {
 	funcin("a")
 	defer funcout("a")
 	fmt.Println("this func a action")
